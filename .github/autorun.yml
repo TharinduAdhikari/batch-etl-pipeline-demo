@@ -11,7 +11,7 @@ jobs:
   run_ballerina:
     name: Execute Ballerina Script and Tests
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' # Executes only on the main branch
+    if: github.ref == 'refs/heads/main' 
     steps:
       - name: Set Ballerina Version
         run: |-
